@@ -1,0 +1,24 @@
+* {
+    background-color: rgb(214, 191, 160);
+}
+
+body section{
+    display: grid;
+    grid-template-columns: 30% 40% ;
+    position: relative;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(88, 70, 10);
+}
+
+#pizzaImg , #shrimpImg , #cheesecakeImg , #caramelImg{
+    width: 20vw;
+    height: 20vw;
+    padding: 10px;
+
+}
