@@ -1,13 +1,20 @@
-* {
-    background-color: rgb(214, 191, 160);
+html {
+    background: linear-gradient(180deg, rgba(248, 177, 22, 0.308), rgb(92, 63, 13)) fixed;
 }
 
-body section{
+.grid-container {
     display: grid;
-    grid-template-columns: 30% 40% ;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 20px;
     position: relative;
     margin: 0px;
     box-sizing: border-box;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #title {
@@ -20,5 +27,9 @@ body section{
     width: 20vw;
     height: 20vw;
     padding: 10px;
+    border-radius: 25%;
+    border: 0.9em double white;
+    /* background: linear-gradient(to bottom, white,  rgb(112, 82, 15)); */
+
 
 }
