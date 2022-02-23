@@ -5,7 +5,7 @@ html {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-gap: 20px;
+    grid-gap: 5em;
     position: relative;
     margin: 0px;
     box-sizing: border-box;
@@ -30,6 +30,9 @@ html {
     border-radius: 25%;
     border: 0.9em double white;
     /* background: linear-gradient(to bottom, white,  rgb(112, 82, 15)); */
+}
 
-
+#pizzaImg:hover, #shrimpImg:hover, #cheesecakeImg:hover, #caramelImg:hover {
+    width: 15em;
+    height: 15em;
 }

@@ -11,12 +11,39 @@ body {
     overflow-anchor: none;
 }
 
+.homeLink {
+    display: flex;
+    margin: 2em 2em;
+    padding: .5em;
+    align-items: center;
+    justify-content: center;
+    border: 0.2em double grey;
+    border-radius: 2em;
+    width: 5em;
+    text-decoration: none;
+    color: burlywood;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    top: 4em;
+    width: 45em;
+    height: 127em;
+    border: 0.5em double white;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 1em;
+    background-color:rgb(30, 30, 30);
+    
+}
 .image{
     display: flex;
     justify-content: center;
-    /* position: absolute; */
+    position: relative;
     margin: 2em auto;
-    top: 17em;
     width: 20em;
     border-radius: 20%;
     border: 0.6em double white;
@@ -42,9 +69,7 @@ body {
     position: relative;
     display: flex;
    color: rgb(150, 121, 68); 
-   left: 50%;
    justify-content: center;
-   transform: translateX(-50%);
 }
 
 .description {
@@ -70,7 +95,7 @@ body {
 .serves {
     display: flex;
     align-items: center;
-    margin-left: 2em;
+    margin-left: 4em;
     color: white;
 }
 
@@ -92,27 +117,15 @@ body {
 
 .servingSize {
     color: rgb(150, 121, 68);
+    margin: 0 1em 0 2em;
 }
 
 .slice {
-    margin-left: 0.5em;
+    /* margin-left: 0.5em; */
     color: white;
 }
 
-.container {
-    position: relative;
-    top: 4em;
-    width: 45em;
-    height: 127em;
-    border: 0.5em double white;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    box-sizing: border-box;
-    border-radius: 1em;
-    background-color:rgb(30, 30, 30);
-    
-}
+
 
 
 .ingredients-container, .instructions-container, .nutrition-container {
