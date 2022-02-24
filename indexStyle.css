@@ -1,5 +1,26 @@
 html {
+    margin: 0;
+}
+body {
     background: linear-gradient(180deg, rgba(248, 177, 22, 0.308), rgb(92, 63, 13)) fixed;
+}
+
+.decor {
+    margin: 3em auto 0 auto;
+    border-top: 2em solid white;
+    border-bottom: 2em solid white;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    width: 80%;
+
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Apple Chancery", cursive;
+    color: rgb(71, 56, 11);
+    margin-top: -1.5em;
 }
 
 .grid-container {
@@ -7,32 +28,44 @@ html {
     grid-template-columns: 1fr 1fr ;
     grid-gap: 5em;
     position: relative;
-    margin: 0px;
+    margin: 4em 2em;
     box-sizing: border-box;
 }
 
 .grid-item {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#title {
-    text-align: center;
-    font-size: 50px;
-    color: rgb(88, 70, 10);
-}
-
 #pizzaImg , #shrimpImg , #cheesecakeImg , #caramelImg{
-    width: 20vw;
-    height: 20vw;
+    width: 25vw;
+    height: 25vw;
     padding: 10px;
     border-radius: 25%;
     border: 0.9em double white;
     /* background: linear-gradient(to bottom, white,  rgb(112, 82, 15)); */
 }
 
+.name {
+    position: absolute;
+    color: rgb(53, 42, 8);;
+    font-family: "Apple Chancery", cursive;
+    font-weight: bold;
+    font-size: 2em;
+    visibility: hidden; 
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+
 #pizzaImg:hover, #shrimpImg:hover, #cheesecakeImg:hover, #caramelImg:hover {
-    width: 15em;
-    height: 15em;
+    opacity: 0.3;
+
+}
+
+.grid-item:hover .name {
+    visibility: visible;
+    opacity: 1;
 }

@@ -21,6 +21,7 @@ body {
     text-decoration: none;
     color: burlywood;
     background-color: black;
+    font-family: "Apple Chancery", cursive;
 }
 
 .container {
@@ -28,7 +29,7 @@ body {
     border: 0.5em double white;
     border-radius: 1em;
     margin: 0 auto;
-    top: 4em;
+    top: 2em;
     width: 45em;
     height: 139em;
     justify-content: center;
@@ -68,6 +69,8 @@ body {
     display: flex;
     justify-content: center; 
     color: rgb(150, 121, 68); 
+    margin-top: -0.2em;
+    font-family: "Apple Chancery", cursive;
 }
 
 .description {

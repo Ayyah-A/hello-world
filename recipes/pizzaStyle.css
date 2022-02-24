@@ -23,11 +23,13 @@ body {
     text-decoration: none;
     color: burlywood;
     background-color: black;
+    font-family: "Apple Chancery", cursive;
+    font-weight: bold;
 }
 
 .container {
     position: relative;
-    top: 4em;
+    top: 2em;
     width: 45em;
     height: 127em;
     border: 0.5em double white;
@@ -70,6 +72,8 @@ body {
     display: flex;
    color: rgb(150, 121, 68); 
    justify-content: center;
+   font-family: "Apple Chancery", cursive;
+   margin-top: -0.2em;
 }
 
 .description {
@@ -148,7 +152,6 @@ body {
     border-bottom: 0.8em solid white;
     border-left: 0.8em solid transparent;
     border-right: 0.8em solid transparent;
-    /* opacity: 0; */
 }
 
 .ingredientsTitle, .instructionsTitle, .nutritionTitle {
@@ -156,7 +159,6 @@ body {
     font-size: 1.3em;
     /* font-family: "Yuji Mai"; */
     top: -0.90em;
-    /* opacity: 0; */
 }
 
 .ingredientsList {
