@@ -30,7 +30,7 @@ body {
     margin: 0 auto;
     top: 2em;
     width: 45em;
-    height: 95em;
+    height: 103em;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -192,4 +192,19 @@ body {
 }
 .nutrition1 li, .nutrition2 li {
     margin-bottom: 0.9em;
+}
+
+.printBtn{
+    display: flex;
+    padding: 1em;
+    margin: 3em auto 2em auto;
+    color: wheat;
+    background-color: black;
+    border: 0.5em double grey;
+    border-radius: 2em;
+    font-family: "Apple Chancery", cursive;
+}
+
+.printBtn:hover {
+    cursor: pointer;
 }

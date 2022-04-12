@@ -31,11 +31,15 @@ body {
     margin: 0 auto;
     top: 2em;
     width: 45em;
-    height: 139em;
+    height: 148em;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
     background-color:rgb(30, 30, 30);
+}
+
+#longContainer{
+    height: 200em;
 }
 
 .image {
@@ -51,7 +55,7 @@ body {
     border-radius: 2em;
 }
 
-.cheesecakeDecor {
+.Decor {
     position: absolute;
     border-top: 1.4em solid white;
     border-bottom: 1.4em solid white;
@@ -195,4 +199,19 @@ body {
 }
 .nutrition1 li, .nutrition2 li {
     margin-bottom: 0.9em;
+}
+
+.printBtn{
+    display: flex;
+    padding: 1em;
+    margin: 3em auto 2em auto;
+    color: wheat;
+    background-color: black;
+    border: 0.5em double grey;
+    border-radius: 2em;
+    font-family: "Apple Chancery", cursive;
+}
+
+.printBtn:hover {
+    cursor: pointer;
 }

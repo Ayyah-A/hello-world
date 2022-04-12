@@ -31,7 +31,7 @@ body {
     position: relative;
     top: 2em;
     width: 45em;
-    height: 127em;
+    height: 135em;
     border: 0.5em double white;
     justify-content: center;
     align-items: center;
@@ -216,4 +216,19 @@ body {
 .nutritionNum li {
     margin-top: 0.75em;
     margin-bottom: 0.75em;
+}
+
+.printBtn{
+    display: flex;
+    padding: 1em;
+    margin: 3em auto 2em auto;
+    color: wheat;
+    background-color: black;
+    border: 0.5em double grey;
+    border-radius: 2em;
+    font-family: "Apple Chancery", cursive;
+}
+
+.printBtn:hover {
+    cursor: pointer;
 }

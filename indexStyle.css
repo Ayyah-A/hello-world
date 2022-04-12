@@ -39,7 +39,7 @@ body {
     justify-content: center;
 }
 
-#pizzaImg , #shrimpImg , #cheesecakeImg , #caramelImg{
+.recipeImage{
     width: 25vw;
     height: 25vw;
     padding: 10px;
@@ -60,7 +60,7 @@ body {
 }
 
 
-#pizzaImg:hover, #shrimpImg:hover, #cheesecakeImg:hover, #caramelImg:hover {
+.recipeImage:hover{
     opacity: 0.3;
 
 }
