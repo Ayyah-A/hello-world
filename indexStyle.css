@@ -69,3 +69,37 @@ body {
     visibility: visible;
     opacity: 1;
 }
+
+/* ----------------------------- Responsive Home Page -------------------- */
+ 
+@media screen and (max-width: 840px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+   
+    .recipeImage{
+        width: 50vw;
+        height: 50vw;
+        padding: 10px;
+    }
+
+    .decor {
+        border-top: 1.5em solid white;
+        border-bottom: 1.5em solid white;
+        border-left: 1.5em solid transparent;
+        border-right: 1.5em solid transparent;
+    
+    }
+    
+    #title {
+        font-size: 35px;
+    }
+
+    .name {
+        position: absolute;
+        font-size: 1.5em;
+    }
+
+}

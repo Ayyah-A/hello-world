@@ -24,6 +24,13 @@ body {
     font-family: "Apple Chancery", cursive;
 }
 
+.homeLink:hover{
+    cursor: pointer;
+    background-color: rgb(209, 167, 88);
+    color: black;
+}
+
+
 .container {
     position: relative;
     border: 0.5em double white;
@@ -31,16 +38,14 @@ body {
     margin: 0 auto;
     top: 2em;
     width: 45em;
-    height: 148em;
+    height: initial;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
     background-color:rgb(30, 30, 30);
 }
 
-#longContainer{
-    height: 200em;
-}
+
 
 .image {
     position: relative;
@@ -69,19 +74,21 @@ body {
 }
 
 .recipeName {
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center; 
     color: rgb(150, 121, 68); 
     margin-top: -0.2em;
     font-family: "Apple Chancery", cursive;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .description {
     position: relative;
     color: white;
     width: 90%;
-    margin: 2em auto 0 auto;
+    margin: 7em auto 0 auto;
 }
 
 .seperator{ 
@@ -149,13 +156,14 @@ body {
 .ingredientsTitle, .instructionsTitle, .nutritionTitle {
     font-size: 1.5em;
     position: absolute;
-    top: -1.1em;
+    top: -1em;
 }
 
 .ingredientsList {
     color: white;
     margin-top: 2em;
     margin-left: -4em;
+    width: 70%;
 }
 
 .ingredientsList li {
@@ -201,7 +209,7 @@ body {
     margin-bottom: 0.9em;
 }
 
-.printBtn{
+#printBtn{
     display: flex;
     padding: 1em;
     margin: 3em auto 2em auto;
@@ -212,6 +220,24 @@ body {
     font-family: "Apple Chancery", cursive;
 }
 
-.printBtn:hover {
+#printBtn:hover {
     cursor: pointer;
+    background-color: wheat;
+    color: black;
+}
+
+
+
+/* ------------------------- Responsive Mobile ------------------------------ */
+
+
+@media screen and (max-width: 840px) {
+    .container {
+        
+        width: auto;
+        height: initial;
+    }
+
+
+
 }

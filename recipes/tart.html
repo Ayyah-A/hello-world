@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./mainStyle.css">
-    <link rel="icon" href="../images/icon.jpeg">
+    <link rel="icon" href="../images/icon.jpeg" type="image/x-icon">
+    <script src="../script.js" defer></script>
     <title>Lemon Tart</title>
 </head>
 <body>
     <a class="homeLink" href="../index.html"> Home</a>
     
-    <main id="longContainer" class="container">
+    <main  class="container">
         <img class="image" src="../images/lemonTart.jpeg" alt=" Lemon Tart">
         
         <div class="Decor"></div>
@@ -30,7 +31,7 @@
 
         <section class="ingredients-container">
             <div class="decoration"></div>
-            <h4 class="ingredientsTitle"> Ingredients</h4>
+            <h2 class="ingredientsTitle"> Ingredients</h2>
             <div class="ingredientsList">
                 <h4 class="label"> Tart Shell</h4>    
                     <ul>
@@ -70,7 +71,7 @@
 
         <section class="instructions-container">
             <div class="decoration"></div>
-            <h3 class="instructionsTitle"> Instructions</h3>
+            <h2 class="instructionsTitle"> Instructions</h2>
             <div class="instructionSteps">
                 <h4 class="label">Making the tart shells: </h4>
                     <ol>
@@ -115,7 +116,7 @@
 
         <section class="nutrition-container">
             <div class="decoration"></div>
-            <h3 class="nutritionTitle"> Nutrition Facts</h3>
+            <h2 class="nutritionTitle"> Nutrition Facts</h2>
 
             <div class="nutritionBox">
                  <div class="nutrition1">
@@ -154,7 +155,7 @@
            
         </section>    
         
-        <button class="printBtn" onclick="window.print()"> Print Recipe</button>
+        <button id="printBtn"> Print Recipe</button>
 
         
     </main>
