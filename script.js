@@ -5,3 +5,4 @@ function printPage() {
 }
 
 document.querySelector("#printBtn").addEventListener('click', printPage);
+
